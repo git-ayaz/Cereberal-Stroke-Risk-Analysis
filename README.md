@@ -33,7 +33,7 @@ Several classification models are chosen (`KNeighborsClassifier`, `GaussianNB`, 
 Classification reports are generated for each model to evaluate their performance on the imbalanced dataset.
 
 <p align="center">
-<img src="https://github.com/Demon-2-Angel/Cereberal-Stroke-Analysis/blob/main/Images/Before%20Sampling.png">
+<img src="https://github.com/git-ayaz/Cereberal-Stroke-Risk-Analysis/blob/main/Images/before.png">
 </p>
 
 
@@ -48,7 +48,7 @@ The script uses the Synthetic Minority Over-sampling Technique (SMOTE) to oversa
 The same models are re-trained and evaluated on the oversampled dataset.
 
 <p align="center">
-<img src="https://github.com/Demon-2-Angel/Cereberal-Stroke-Analysis/blob/main/Images/OverSampling.png">
+<img src="https://github.com/git-ayaz/Cereberal-Stroke-Risk-Analysis/blob/main/Images/after%20oversampling.png">
 </p>
 
 
@@ -61,7 +61,7 @@ Random under-sampling is performed to balance the class distribution.
 The models are re-trained and evaluated on the undersampled dataset.
 
 <p align="center">
-<img src="https://github.com/Demon-2-Angel/Cereberal-Stroke-Analysis/blob/main/Images/UnderSampling.png">
+<img src="https://github.com/git-ayaz/Cereberal-Stroke-Risk-Analysis/blob/main/Images/after%20undersampling.png">
 </p>
 
 
@@ -74,7 +74,7 @@ The SMOTEENN technique, which combines SMOTE and Edited Nearest Neighbours (ENN)
 The models are re-trained and evaluated on the combined dataset.
 
 <p align="center">
-<img src="https://github.com/Demon-2-Angel/Cereberal-Stroke-Analysis/blob/main/Images/After%20Over%20%26%20Under%20Sampling.png">
+<img src="https://github.com/git-ayaz/Cereberal-Stroke-Risk-Analysis/blob/main/Images/after%20oversampling%20and%20undersampling.png">
 </p>
 
 
